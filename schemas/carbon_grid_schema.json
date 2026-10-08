@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CarbonGridMetrics",
+  "type": "object",
+  "properties": {
+    "region": {
+      "type": "string",
+      "description": "Cloud region name or deployment zone."
+    },
+    "carbon_intensity_g_kwh": {
+      "type": "number",
+      "description": "Carbon intensity for the region in g/kWh."
+    },
+    "egress_cost_usd_gb": {
+      "type": "number",
+      "description": "Estimated egress or network transfer cost in USD per GB."
+    },
+    "updated_at_epoch_ms": {
+      "type": "integer",
+      "description": "UTC timestamp in epoch milliseconds."
+    }
+  },
+  "required": [
+    "region",
+    "carbon_intensity_g_kwh",
+    "egress_cost_usd_gb",
+    "updated_at_epoch_ms"
+  ],
+  "additionalProperties": false
+}

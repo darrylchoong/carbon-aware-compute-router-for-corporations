@@ -1,0 +1,16 @@
+[
+  {
+    "job_id": "job-1001",
+    "origin_region": "us-east-1",
+    "data_size_gb": 120,
+    "max_cost_budget_usd": 15.0,
+    "submitted_at_epoch_ms": 1727000000000
+  },
+  {
+    "job_id": "job-1002",
+    "origin_region": "eu-west-1",
+    "data_size_gb": 90,
+    "max_cost_budget_usd": 20.0,
+    "submitted_at_epoch_ms": 1727000001000
+  }
+]

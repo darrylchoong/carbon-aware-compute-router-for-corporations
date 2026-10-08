@@ -1,0 +1,20 @@
+[
+  {
+    "region": "us-east-1",
+    "carbon_intensity_g_kwh": 118.4,
+    "egress_cost_usd_gb": 0.09,
+    "updated_at_epoch_ms": 1727000000000
+  },
+  {
+    "region": "us-west-2",
+    "carbon_intensity_g_kwh": 128.7,
+    "egress_cost_usd_gb": 0.08,
+    "updated_at_epoch_ms": 1727000000000
+  },
+  {
+    "region": "eu-central-1",
+    "carbon_intensity_g_kwh": 96.1,
+    "egress_cost_usd_gb": 0.11,
+    "updated_at_epoch_ms": 1727000000000
+  }
+]
