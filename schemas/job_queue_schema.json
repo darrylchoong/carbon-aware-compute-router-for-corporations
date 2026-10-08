@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JobQueueRecord",
+  "type": "object",
+  "properties": {
+    "job_id": {
+      "type": "string",
+      "description": "Unique workload identifier."
+    },
+    "origin_region": {
+      "type": "string",
+      "description": "Origin region where the job is submitted."
+    },
+    "data_size_gb": {
+      "type": "number",
+      "description": "Input or output data size in GB."
+    },
+    "max_cost_budget_usd": {
+      "type": "number",
+      "description": "Maximum allowed cost for transfer and execution planning."
+    },
+    "submitted_at_epoch_ms": {
+      "type": "integer",
+      "description": "UTC timestamp when the workload was queued."
+    }
+  },
+  "required": [
+    "job_id",
+    "origin_region",
+    "data_size_gb",
+    "max_cost_budget_usd",
+    "submitted_at_epoch_ms"
+  ],
+  "additionalProperties": false
+}
